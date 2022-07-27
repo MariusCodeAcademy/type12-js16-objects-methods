@@ -62,3 +62,5 @@ const userArr = [
 // prasukti cikla ir grazinti visus menesinius atlyginumus
 
 // grazinti nauja objektu masyva kuriame butu tik vardas ir menesinis atlyginimas
+
+// grazinti visu zmoniu vidutini menesini atlygi

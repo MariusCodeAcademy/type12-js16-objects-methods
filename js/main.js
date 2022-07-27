@@ -37,3 +37,16 @@ function change(sk) {
 }
 change(num11);
 console.log('num11 ===', num11);
+
+//
+const shape1 = {
+  aukstis: 3,
+  plotis: 10,
+  gylis: 10,
+  turis: function () {
+    const volume = this.aukstis * this.plotis * this.gylis;
+    console.log(`turis yra ${volume}m3`);
+    return volume;
+  },
+};
+shape1.turis();
