@@ -6,6 +6,11 @@ const user1 = {
   lastName: 'Bond',
   age: 45,
   salary: 400000,
+  getMonthlyPay: function () {
+    const monthlyPay = (this.salary / 12).toFixed(2);
+    console.log(`${this.firstName} Monthly salary is: 💸${monthlyPay}`);
+    return monthlyPay;
+  },
   fullName: function () {
     console.log(`${this.firstName} ${this.lastName}`);
   },
@@ -15,7 +20,7 @@ const user1 = {
 // getMonthlyPay()  -21%
 
 user1.fullName();
-
+user1.getMonthlyPay();
 // padaryri kad butu function expression
 const fullName = function (someObj) {
   console.log(`${someObj.firstName} ${someObj.lastName}`);
@@ -23,3 +28,12 @@ const fullName = function (someObj) {
 // fullName(user1);
 
 const addNums = (num1, num2) => num1 + num2;
+
+let num11 = 5;
+
+function change(sk) {
+  sk = 10;
+  console.log('sk vidue ===', sk);
+}
+change(num11);
+console.log('num11 ===', num11);
