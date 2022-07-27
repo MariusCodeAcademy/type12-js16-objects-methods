@@ -58,9 +58,17 @@ const userArr = [
 ];
 // userArr
 // prasukti cikla ir atspausdinti visus menesinius atlyginumus
-
+userArr.forEach((uObj) => {
+  uObj.getMonthlyPay();
+});
 // prasukti cikla ir grazinti visus menesinius atlyginumus
+const menesiniaiArr = userArr.map((uObj) => {
+  return uObj.getMonthlyPay();
+});
+console.log('menesiniaiArr ===', menesiniaiArr);
 
 // grazinti nauja objektu masyva kuriame butu tik vardas ir menesinis atlyginimas
-
-// grazinti visu zmoniu vidutini menesini atlygi
+// [
+//   { firstName: 'Norma', monthlyPay: 82500.00 }
+// ];
+// grazinti visu zmoniu bendra vidutini menesini atlygi

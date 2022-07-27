@@ -12,3 +12,5 @@ getVoteCount({ upvotes: 132, downvotes: 132 }) ➞ 0
 const votes1 = { upvotes: 15, downvotes: 5 }
 
 3. https://edabit.com/challenge/Wp8uSyh2tfpdzR4CP Check if Number is within a Given Range
+
+4. https://edabit.com/challenge/nGybgqB9agSqvBszF Is the Object Empty?
