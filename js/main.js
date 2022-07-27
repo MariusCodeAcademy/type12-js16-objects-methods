@@ -49,4 +49,7 @@ const shape1 = {
     return volume;
   },
 };
+// shape1.aukstis = 'asas';
 shape1.turis();
+// shape1.naujasAukstis(5);
+// shape1.naujasAukstis('asas');
