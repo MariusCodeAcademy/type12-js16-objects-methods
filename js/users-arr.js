@@ -71,4 +71,14 @@ console.log('menesiniaiArr ===', menesiniaiArr);
 // [
 //   { firstName: 'Norma', monthlyPay: 82500.00 }
 // ];
+const nameAndPay = userArr.map((uObj) => {
+  return {
+    vardas: uObj.firstName,
+    menesinis: uObj.getMonthlyPay(),
+  };
+});
+console.log('nameAndPay ===', nameAndPay);
+
 // grazinti visu zmoniu bendra vidutini menesini atlygi
+
+// [1, 2, 3]
