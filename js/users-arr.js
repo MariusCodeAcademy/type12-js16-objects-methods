@@ -56,3 +56,9 @@ const userArr = [
     },
   },
 ];
+// userArr
+// prasukti cikla ir atspausdinti visus menesinius atlyginumus
+
+// prasukti cikla ir grazinti visus menesinius atlyginumus
+
+// grazinti nauja objektu masyva kuriame butu tik vardas ir menesinis atlyginimas
